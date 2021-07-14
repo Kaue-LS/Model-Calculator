@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial,sans-serif;
+}
+
+#calculadora{
+    position: relative;
+    left: 35%;
+    top:2px;
+    width: 350px;
+    height: 680px;
+    background-color: #22252d;
+    border-radius: 25px;
+}
+#titulo{
+    color: white;
+    text-align: center;
+}
+.multiplicar2{
+    color: #ca7278;
+}
+#numero1,#numero2{
+    color: white;
+    
+}
+#numero1,.multiplicar2,#numero2{
+
+    position: relative;
+    width:auto;
+    font-size: 30px;
+    top: 60%;
+    left: 56%;
+    
+}
+#numero1{
+    margin-right:10px;
+}
+#numero2{
+    margin-left: 10px;
+}
+#resultado{
+    color: white;
+    font-size: 60px;
+    position: relative;
+    left:39%;
+    top: 60%;
+}
+#Painel{
+    top: 25%;
+    background-color: #22252d;
+    height: 200px;
+    border-radius: 45px;
+
+}
+#teclado{
+    background-color: #2a2d37;
+    position: relative;
+    top: 8%;
+    height: 425px;
+    width: 350px;
+    border-radius: 25px;
+  
+}
+#botoes{
+    display: grid;
+    width: 80%;
+    grid-template-areas: 
+    "numero numero numero numero"
+    ;
+}
+button{ 
+    position: relative;
+    top: 10px;
+    border-radius: 10px;
+    border:none;
+    width: 60px;
+    height: 55px;
+    left: 15px;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 0%;
+    background-color: #282b33;
+    
+}
+.numero,.voltar,.ponto{
+    color: white;
+    padding: 10px 10px;
+}
+.cortar,.Qisso,.porcentagem{
+    color:#1bdfc1;
+    padding: 10px 10px;
+}
+.dividir,.multiplicar,.subtração,.adição,.igual{
+    padding: 10px 10px;
+    color: #f48485;
+}
+
+.numero:active,.voltar:active,.ponto:active{
+    opacity: 50%;
+    background-color:white;
+    color: white;
+}
+
+.cortar{
+    font-size: 22px;
+    font-weight: 550;
+}
+.dividir{
+    font-size:38px;
+
+}
+#voltar{
+    width: 50%;
+}
