@@ -5,6 +5,76 @@
     font-family: arial,sans-serif;
 }
 
+body{
+    animation: gradient 10s ease infinite;
+    background: linear-gradient(-45deg,rgb(0, 7, 36),rgb(0, 68, 255),rgb(0, 140, 255),rgb(0, 17, 255),rgb(1, 5, 58))no-repeat;
+    background-size: 300% 300%;
+}
+@keyframes gradient{
+    0%{
+        background-position: 0 50%;
+    } 
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+#Block{
+
+    animation: border 2.5s infinite;
+    border-radius: 20px;
+    left: 7rem;
+    top:5rem;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 250px;
+    height: 200px;
+    background-color: #272727;
+}
+#Panel2{
+    animation: border 2.4s infinite;
+    border-radius: 20px;
+    margin-left: 5px;
+    height: 190px;
+    width: 240px;
+    background-color: #272727;
+    position: relative;
+    top: 3%;
+}
+#Panel1{
+    border-radius: 20px;
+    margin-left: 5px;
+    height: 182px;
+    width: 230px;
+    background-color: #272727;
+    position: relative;
+    top: 2%;
+}
+ h2{
+    text-shadow: rgb(140, 138, 138) 1px 1px 5px;
+    position: relative;
+    top: 10%;
+}
+p{
+    position: relative;
+  top: 20%;  
+}
+
+
+@keyframes border{
+    0%{
+        background-color: white;
+    }
+    100%{
+        
+    }
+}
+
+
 #calculadora{
     position: relative;
     left: 35%;
@@ -109,9 +179,22 @@ button{
     font-weight: 550;
 }
 .dividir{
+    
     font-size:38px;
 
 }
 #voltar{
     width: 50%;
+}
+#divisão{
+    position: relative;
+    top: -5px;
+}
+#porcento{
+    margin-left: -8px;
+    margin-top: -8px;
+}
+#second{
+    margin-left: -8px;
+    margin-top: -8px;
 }
