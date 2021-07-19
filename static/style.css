@@ -111,10 +111,14 @@ p{
     margin-left: 10px;
 }
 #resultado{
+    background-color: #22252d;
     color: white;
     font-size: 60px;
     position: relative;
-    left:39%;
+    width: 86%;
+    left: 20px;
+    text-align: right;
+    
     top: 60%;
 }
 #Painel{
@@ -168,10 +172,11 @@ button{
     color: #f48485;
 }
 
-.numero:active,.voltar:active,.ponto:active{
+.numero:active,.voltar:active,.ponto:active,.igual:active,
+.adição:active,.subtração:active,.multiplicar:active,.dividir:active,
+.cortar:active,.Qisso:active,.porcentagem:active{
     opacity: 50%;
     background-color:white;
-    color: white;
 }
 
 .cortar{
