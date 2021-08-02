@@ -1,8 +1,28 @@
 Link da imagem usada:
 https://dribbble.com/shots/14709020-Calculator
 
-Objetivo:
-Utilizar o design para criar uma réplica utilizando html e css
+    Utilizar o design para criar uma réplica utilizando html e css.
+
+*Update:
+    Agora com JavaScript, os teclados apresentam funcionalidades, porem o processo das condições ainda estão
+em desenvolvimento, os cálculos podem ser feitas sem problemas, mas claro, as suas funções são de acordo com o modelo
+utilizado.
+    Vale destacar que agora possui opções de temas, com o modo escuro padrão e também o tema claro, que podem serem alternados com os botoes no topo do Calculadora.
+
+GitHub:
+-Kaue-LS
+-----------------------------------------------------------------------------------------------
+
+Link of image used:
+https://dribbble.com/shots/14709020-Calculator
+
+    Use the design to create a replica using html and css.
+
+*Update:
+    Now with JavaScript, keyboards have functionality, but the process of conditions are still
+in development, calculations can be done without problems, but of course, its functions are according to the model.
+used.
+    And now has theme options, with the default dark theme and also the light theme, which can be switched with the buttons at the top of the Calculator.
 
 GitHub:
 -Kaue-LS
