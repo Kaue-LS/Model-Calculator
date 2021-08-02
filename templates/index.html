@@ -8,50 +8,55 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="Block">
+    <!-- <div id="Block">
         <div id="Panel2">
             <div id="Panel1">
             <h2>Calculadora</h2>
             <p>Desenvolvido em:<br> <span style="color: orange;"> HTML</span> e <span style="color: aquamarine;">CSS</span><br> e tambem com<br><span style="color: yellow;"> Java Script</span> </p>
             </div>
         </div>
-    </div>
+    </div> -->
     <div id="calculadora">
     <!-- <h1 id="titulo">Calculadora</h1> -->
     <div id="Painel">
-        
+        <div id='temas'>
+            <img onclick="temaLight()" id="sun" src="/static/sun dark.png" alt="Sol">
+            <img onclick="temaDark()" id="moon" src="/static/moon dark.png" alt="Lua">
+        </div>
         <!-- <span id="numero1">308</span><span class="multiplicar2">x</span><span id="numero2">42</span> -->
+        <p
+         id="escolhido"></p>
         <p id="resultado"></p> 
     </div>
     <div id="teclado">
         <div id="botoes">
         <button id="corta" class="cortar" onclick="clean()">C</button>
-        <button class="Qisso"><img id="second" src="/static/second key.png" alt=""> </button>
-        <button onclick="percent()" class="porcentagem"><img id="porcento" src="/static/third key.png" alt=""> </button>
+        <button onclick="MRC('-(')" id="MRC" class="Qisso"><img id="second" src="/static/second key.png" alt=""></button>
+        <button  onclick="percent()" id="porcentagem" class="porcentagem"><img id="porcento" src="/static/third key.png" alt=""> </button>
 
-        <button value="/" onclick="numero('/')" class="dividir"><span id="divisão">÷</span></button>
+        <button value="/" onclick="numero('÷')" id="dividir" class="dividir"><span id="divisão">÷</span></button>
         <button onclick="numero('7')" id="7" class="numero">7</button>
         <button onclick="numero('8')" id="8" class="numero">8</button>
         <button onclick="numero('9')" id="9" class="numero">9</button>
-        <button value="x" onclick="numero('x')" class="multiplicar">x</button>
+        <button value="x" onclick="numero('x')" id="multiplicar" class="multiplicar">x</button>
 
 
         <button onclick="numero('4')" value="4" id="4" class="numero">4</button>
         <button onclick="numero('5')" id="5" class="numero">5</button>
         <button onclick="numero('6')" id="6" class="numero">6</button>
-        <button value="-" onclick="numero('-')" class="subtração">-</button>
+        <button value="-" onclick="numero('-')" id="subtração" class="subtração">-</button>
 
 
         <button onclick="numero('1')" id="1" class="numero">1</button>
         <button onclick="numero('2')" id="2" class="numero">2</button>
         <button onclick="numero('3')" id="3" class="numero">3</button>
-        <button value="+" onclick="numero('+')"  class="adição">+</button>
+        <button value="+" onclick="numero('+')"  id="adição" class="adição">+</button>
 
         
-        <button onclick="back()" class="voltar"><img src="/static/recarregar.png" id="voltar" alt=""></button>
+        <button onclick="back()" id="back" class="voltar"><img src="/static/recarregar.png" id="voltar" alt=""></button>
         <button onclick="numero('0')" id="0" class="numero">0</button>
-        <button value="." onclick="numero('.')" class="ponto">.</button>
-        <button onclick="equal()" class="igual">=</button>
+        <button value="." onclick="numero('.')" id="ponto" class="ponto">.</button>
+        <button onclick="equal()" id="igual" class="igual">=</button>
 
     </div>
     </div>
